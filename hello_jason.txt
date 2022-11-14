@@ -6,4 +6,4 @@ code hello_jason.txt
 git status
 git add .
 git status
-git commint -m "made a test text file"
+git commit -m "made a test text file"
