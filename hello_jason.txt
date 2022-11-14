@@ -1,0 +1,9 @@
+Log:
+
+git clone <link>
+touch hello_jason.txt
+code hello_jason.txt
+git status
+git add .
+git status
+git commint -m "made a test text file"
