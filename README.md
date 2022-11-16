@@ -1,3 +1,5 @@
-# kaya_asap
-Repository for KAYA Ateneo Startup Accelerator Program. 
-Nice.
+# KAYA ASAP Repo
+
+## Description
+
+Repository for KAYA Ateneo Startup Accelerator Program. A landing page using GitHub Pages will be made. 
