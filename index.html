@@ -16,38 +16,31 @@
 </head>
 <body>
     <div class="container text-center"> 
-        <div class="row-lg navigation w-nav"> <!--Navigation bar-->
+        <div class="row navigation w-nav"> <!--Navigation bar-->
             <div class="navbar-expand-md navbar-light navigation-container">
-                <div class="navigation-left">
+                <div class="col-xs-6 col-md-4 text-start">
                     <a href="/" aria-current="page" class="brand w-nav-brand w--current" aria-label="home">
                         <img src="https://uploads-ssl.webflow.com/60b1bd0542d31f178d12f8e5/60b1bf54d2a4d962883ac95d_logo-black-on-white.webp" alt="" width="110" class="logo">
                     </a>
                 </div>
-                <div class="navigation-right">
+                <div class="col-xs-8 col-md-6 text-end">
+                    <ul class="navbar-nav justify-content-end">
+                        <li class="nav-item w-nav-link"><a class="nav-link" href="/">About</a></li>
+                        <li class="nav-item w-nav-link"><a class="nav-link" href="/">Companies</a></li>
+                        <li class="nav-item w-nav-link"><a class="nav-link" href="/">Team</a></li>
+                        <li class="nav-item w-nav-link"><a class="nav-link" href="/">Blog</a></li>
+                        <li class="nav-item w-nav-link"><a class="nav-link" href="/">Careers</a></li>
+                        <li class="nav-item w-nav-link"><a class="nav-link" href="/">Recommend</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-4 col-md-2 text-end">
                     <div class="navbar-collapse navigation-container">
-                        <ul class="navbar-nav justify-content-end">
-                            <li class="nav-item w-nav-link"><a class="nav-link" href="/">About</a></li>
-                            <li class="nav-item w-nav-link"><a class="nav-link" href="/">Companies</a></li>
-                            <li class="nav-item w-nav-link"><a class="nav-link" href="/">Team</a></li>
-                            <li class="nav-item w-nav-link"><a class="nav-link" href="/">Blog</a></li>
-                            <li class="nav-item w-nav-link"><a class="nav-link" href="/">Careers</a></li>
-                            <li class="nav-item w-nav-link"><a class="nav-link" href="/">Recommend</a></li>
-                        </ul>
-     
                         <a href="/" class="button-navigation w-button">Apply for Winter 2023</a>
-                    </div>
-                    <div>
-                    <!-- Collapsible button when there is js
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                    --> 
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row"> <!--Home Header-->
+        <div class="row home-header"> <!--Home Header-->
             <h1 class="home-header-text font-weight-bold">
                 Founders supporting
                 <span style="color:#3870ff">founders</span>
