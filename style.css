@@ -1,5 +1,5 @@
 html {
-    font-family: sans-serif;
+    font-family: 'Public Sans', sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     height: 100%;
@@ -9,7 +9,7 @@ body {
     margin: 0;
     min-height: 100%;
     background-color: #fff;
-    font-family: 'Noir Pro',sans-serif;
+    font-family: 'Public Sans', sans-serif;
     color: #5d5d5d;
     font-size: 14px;
     line-height: 20px;
@@ -69,17 +69,10 @@ ul {
     right: 0;
     bottom: auto;
     z-index: 999;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
     padding: 10px 3%;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center;
     border-bottom: 1px solid rgba(0,0,0,.06);
-    background-color: transparent;
+    background-color: white;
 }
 
 .navigation-wrapper {
@@ -101,4 +94,41 @@ ul {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
+}
+
+.home-header-text {
+    display: inline-block;
+    margin-bottom: 60px;
+    font-size: 4rem;
+    color: #222;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Noir Pro',sans-serif;
+    font-weight: bold;
+}
+
+.div-block-7 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.image-14 {
+    position: absolute;
+    top: 67px;
+    right: 33px;
+    bottom: auto;
+}
+
+#divpic{
+    height: 350px;
+    width: 350px;
 }
