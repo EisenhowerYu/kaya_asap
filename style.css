@@ -118,7 +118,7 @@ ul {
     overflow: hidden;
     padding: 194px 3% 140px;
     background-color: #fff;
-    box-shadow: 14px 14px 35px 0 rgb(33 38 106 / 10%);
+    box-shadow: 0px 14px 35px 0 rgb(33 38 106 / 10%);
 }
 
 h1 {
@@ -178,4 +178,10 @@ h2 {
     line-height: 1.2;
     font-weight: 600;
     letter-spacing: -.02em;
+}
+
+.resize_fit_center {
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
 }
