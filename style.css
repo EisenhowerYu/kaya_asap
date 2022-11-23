@@ -36,10 +36,6 @@ ul {
     border-radius: 10px;
 }
 
-.max-width {
-    max-width: 1200px;
-}
-
 .button-navigation {
     padding: 12px 20px;
     background-color: #3870ff;
@@ -113,6 +109,7 @@ ul {
     font-size: 4rem;
     color: #222;
     text-align: center;
+    font-weight: 800;
 }
 
 .home-header {
