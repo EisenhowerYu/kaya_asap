@@ -1,7 +1,6 @@
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
     height: 100%;
 }
 
@@ -45,13 +44,9 @@ ul {
     padding: 12px 20px;
     background-color: #3870ff;
     box-shadow: 14px 14px 35px 0 rgb(33 38 106 / 10%);
-    -webkit-transition: .2s;
     transition: .2s;
     font-size: 15px;
     text-align: center;
-}
-
-.w-button {
     display: inline-block;
     color: #fff;
     line-height: inherit;
@@ -70,12 +65,10 @@ ul {
     min-height: auto;
     margin-right: auto;
     margin-left: auto;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
+}
+
+.align-center {
     -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
 }
@@ -109,7 +102,7 @@ ul {
     font-weight: 600;
     color: #222;
     padding: 10px;
-    text-align: left;
+    text-align: right;
     margin-left: auto;
     margin-right: auto;
 }
