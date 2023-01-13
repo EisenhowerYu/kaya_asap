@@ -1,3 +1,7 @@
+* {
+    font-family: "Circular std", sans-serif;
+}
+
 .button {
     padding: 12px 20px;
     background-color: #1D4ED8;
@@ -11,6 +15,7 @@
     border-radius: 16px 0px;
     text-decoration: none;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .navigation {position: fixed}
